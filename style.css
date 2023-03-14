@@ -50,9 +50,9 @@ a {
 }
 #mynav ul li a{
     display: block;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-right:24px ;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     padding-left:24px ;
 }
 #mynav ul li a:hover,
