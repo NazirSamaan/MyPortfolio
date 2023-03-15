@@ -316,6 +316,8 @@ footer{
     font-size: 17px;
 }
 
+
+
 @media (max-width: 768px){
     main.row{
         grid-template-columns: 1fr;
@@ -323,7 +325,7 @@ footer{
     .row .col:nth-child(2){
         margin-top: 30px;
     }
-    .mycontainer .mycontents{
+    .my-text .box{
         grid-template-areas: 'imageSect imageSect'
                              'infoSect infoSect'
                              'skillSect skillSect';
@@ -340,4 +342,6 @@ footer{
     .MyInfo{
         grid-template-columns: 1fr;
     }
+   
 }
+
