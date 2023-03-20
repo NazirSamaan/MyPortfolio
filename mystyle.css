@@ -34,24 +34,23 @@ a {
 #mynav {
     background-color: #333;
     color: beige;
-    overflow: auto;
-    
+    overflow: auto;  
 }
 
 #mynav a {
     color: #fff;
-
 }
 
 #mynav ul {
     list-style: none;
     float:right;
-
 }
 
 #mynav ul li {
     float: left;
 }
+
+
 #mynav ul li a{
     display: block;
     padding-top: 15px;
@@ -71,12 +70,6 @@ a {
     overflow: auto;
     padding: 0 20px;
 }
-.container-img {
-    float: left;
-    height: 40px;
-    width: 100px;
-    margin-top: 20px;
-  }
 
 #mynav h1 {
     float: left;
@@ -84,11 +77,12 @@ a {
     color: #fff;
     padding-left: 18px;
 }
-
+/* End of Navigation Bar css */
 
 section{
 	padding: 100px 18%;
 }
+/* Homepage css */
 
 .my{
 	min-height: 100vh;
@@ -102,7 +96,6 @@ section{
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
 	grid-gap: 4rem;
-    
 }
 .my-text h1{
     font-size: 20px;
@@ -129,17 +122,15 @@ section{
     text-align: justify;
 }
 
-
-
 .my-img img{
     border-radius: 10%;
     height: 400px;
     width: 400px;
     margin-top: 30px;
     margin-left: 41px;
-    
-
 }
+
+
 .button1 {
     background-color: #008CBA;
     border: none;
@@ -155,6 +146,7 @@ section{
     border-radius: 30px;
     transition: ease .40s;
 }
+
 
 footer{
     text-align: center;
@@ -172,7 +164,6 @@ footer{
     padding: 0 20px;
 }
 
-
 .box{
     width: 420px;
     background: rgba(0, 0, 0, 0.4);
@@ -180,9 +171,10 @@ footer{
     padding: 40px;
     text-align: center;
     margin: auto;
-    margin-top: 5%;
     color: white;
     font-family: 'Century Gothic',sans-serif;
+    margin-top: 30px;
+    margin-left: 41px;
 }
 
 
@@ -192,17 +184,17 @@ footer{
 .contactsection{
 	background-color: #3e2a2ac4;
     background-size: cover;
-    padding: 40px 0;
+    padding: 20px 0;
     padding-bottom: 150px;
 }
 
 .contactsection h1{
     text-align: center;
     color: #f5f5f5;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .border{
-    width: 160px;
+    width: 180px;
     height: 5px;
     background-color: #ffffff;
     margin: 24px auto;
@@ -224,7 +216,7 @@ footer{
     background: rgb(213, 213, 213);
     padding: 20px 40px;
     outline: none;
-    color: #ddd;
+    color: black;
     transition: 0.5s;
 }
 
@@ -246,7 +238,7 @@ textarea.contactformtext{
     border-radius: 20px;
     cursor: pointer;
     transition: 0.5s;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .contactformbtn:hover{
@@ -254,7 +246,6 @@ textarea.contactformtext{
 }
 
 
-/* MyProject */
 .wrapping{
 	background-color: #3e2a2ac4;
 	background-size: cover;
@@ -274,8 +265,10 @@ textarea.contactformtext{
 	font-weight: 500;
 }
 
+
+/* all below is in project page  */
 .project{
-	min-height: 100vh;
+	min-height: 1vh;
 	height: 100%;
 	width: 100%;
 	background-color: #3e2a2ac4;
@@ -285,9 +278,15 @@ textarea.contactformtext{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
-	grid-gap: 4rem;
-    
 }
+
+
+.project-video{
+    display: flex;
+    justify-content: center;
+}
+
+
 .projects h1{
     font-size: 20px;
 	margin: 10px 0px 45px;
@@ -295,6 +294,8 @@ textarea.contactformtext{
 	line-height: 1;
 	font-weight: 450;
 }
+
+
 .projects h2{
 	margin-bottom: 5px;
 	font-size: 19px;
@@ -307,30 +308,132 @@ textarea.contactformtext{
 	font-size: 20px;
 	font-weight: 500;
 }
+
+/* a project page text paragraph  */
+
+
 .projects p{
 	line-height: 28px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
     text-align: justify;
 }
 
 
+/* Making the video project centre */
+.project-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.projects-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.projects-video video{
+    border-radius: 10%;
+    height: 400px;
+    width: 400px;
+}
+
+/* for 3 video project  */
 .project-video video{
     border-radius: 10%;
     height: 400px;
     width: 400px;
-    margin-top: 30px;
-    margin-left: 41px;
 }
 
 
 
-@media (max-width: 968px){
+  /* this is in the myproject pages  */
+.boxs{
+    width: 420px;
+    background: #333;
+    height: 400px;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+    margin-top: -1px;
+    margin-left: 90px;
+}
+
+
+
+
+/* Making only one border when the screen is smaller */
+
+
+.projected{
+	height: 100%;
+	width: 100%;
+	background-color: #3e2a2ac4;
+    height: 0px;
+
+}
+
+/* border for MyProject */
+.borders{
+    width: 996px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+
+/* Making My website Responsive */
+
+@media  screen and (max-width: 1158px){
     .project
     {
         grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .my
+    {
+        grid-template-columns: 1fr;
+        margin: auto;
+        padding: auto;
+ 
+    }
+
+    .borders
+    {
+        width: 456px;
+        height: 5px;
+        background-color: #ffffff; 
+        
+    }
+    .boxs{
+        width: 420px;
+        background: #333;
+        height: 400px;
+        padding: 40px;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        color: white;
+        font-family: 'Century Gothic',sans-serif;
+        margin-top: 90px;
+        margin-right: auto;
+        margin-bottom: -60px;
+
+    }
+    
+    .projects-video video{
+        border-radius: 10%;
+        height: 400px;
+        width: 400px;
+        margin-top: -60px;
     }
 
 
-
+    
 }
