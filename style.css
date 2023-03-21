@@ -221,7 +221,7 @@ main.row{
     font-size: 24px;
     font-weight: 400px;
     color: #d5d5cf;
-    padding: 10px 0px 8px;
+    padding: 5px 0px 8px;
     letter-spacing: 1px;
 }
 .mysection p{
@@ -230,6 +230,7 @@ main.row{
     line-height: 1.2;
     text-align: justify;
     padding-bottom: 8px;
+    padding-top: 8px ;
 }
 
 .MyInfo{
