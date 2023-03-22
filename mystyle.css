@@ -289,9 +289,9 @@ textarea.contactformtext{
 
 .projects h1{
     font-size: 20px;
-	margin: 10px 0px 45px;
+	margin: 10px 0px 15px;
 	font-size: 23px;
-	line-height: 1;
+	line-height: 1.5;
 	font-weight: 450;
 }
 
@@ -324,27 +324,20 @@ textarea.contactformtext{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin-right: ;
 }
 
-.projects-video{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
 
-.projects-video video{
-    border-radius: 10%;
-    height: 400px;
-    width: 400px;
-}
+
 
 /* for 3 video project  */
 .project-video video{
-    border-radius: 10%;
+
     height: 400px;
-    width: 400px;
+    width: 600px;
+    padding-right: 30px;
+
 }
 
 
@@ -353,15 +346,15 @@ textarea.contactformtext{
 .boxs{
     width: 420px;
     background: #333;
-    height: 400px;
     padding: 40px;
     text-align: center;
     margin: auto;
-    margin-top: 5%;
     color: white;
     font-family: 'Century Gothic',sans-serif;
-    margin-top: -1px;
-    margin-left: 90px;
+    margin-left: 40px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
 
 
@@ -412,27 +405,13 @@ textarea.contactformtext{
         
     }
     .boxs{
-        width: 420px;
-        background: #333;
-        height: 400px;
-        padding: 40px;
-        text-align: center;
         margin: auto;
-        margin-top: 5%;
-        color: white;
-        font-family: 'Century Gothic',sans-serif;
         margin-top: 90px;
-        margin-right: auto;
         margin-bottom: -60px;
 
     }
-    
-    .projects-video video{
-        border-radius: 10%;
-        height: 400px;
-        width: 400px;
-        margin-top: -60px;
-    }
+
+
 
 
     
